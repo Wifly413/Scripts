@@ -23,4 +23,8 @@ $temp = Get-CimInstance -Namespace "root/wmi" -ClassName MSAcpi_ThermalZoneTempe
 $textoTemp = "$([math]::Round(($temp.CurrentTemperature / 10) - 273.15, 1)) °C"
 Write-Host "  Temperatura CPU: $textoTemp"
 
+```
+<img width="845" height="408" alt="imagen" src="https://github.com/user-attachments/assets/7a9f9de2-e53b-40f1-932f-f82fec59c490" />
+
+
 
