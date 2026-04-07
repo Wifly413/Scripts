@@ -1,7 +1,7 @@
 # Scripts
 Monitor de Recursos 💻
 
-Un script muy ligero y sencillo , esta mas o menoos bonito.
+Un script muy ligero y sencillo , esta mas o menos bonito y ademas esta muy cortito(el unico problema era el temp que lo del counter como que no)
 
 ```powershell
 
