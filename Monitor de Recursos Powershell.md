@@ -21,5 +21,5 @@ Write-Host "  Cola de Disco (C:): $colaDisco"
 
 $temp = Get-CimInstance -Namespace "root/wmi" -ClassName MSAcpi_ThermalZoneTemperature
 $textoTemp = "$([math]::Round(($temp.CurrentTemperature / 10) - 273.15, 1)) °C"
-Write-Host "  Temperatura CPU: $textoTemp"´´´
+Write-Host "  Temperatura CPU: $textoTemp"
 
