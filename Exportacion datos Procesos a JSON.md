@@ -4,6 +4,8 @@ Este script de PowerShell permite obtener información específica de procesos e
 
 ## Código PowerShell
 
+Para probarlo, asegúrate de abrir un proceso de Windows y un bloc de notas vacío antes de ejecutar el código, así PowerShell encontrará los procesos y los guardará en el archivo de tu escritorio.
+
 ```powershell
 Get-Process -Name "notepad", "PON_PROCESO_AQUI" | 
     Select-Object Name, Id, CPU, StartTime | 
